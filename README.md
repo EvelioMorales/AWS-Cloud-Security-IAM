@@ -35,3 +35,7 @@
 * For storage I used 1x 8 GIB gp3.
 
 ![Successfull instance created](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/YLqpXzFnFW.png)
+
+* Once the instances are created I will check that the tags are correct
+
+![Checking Tags](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/PITJrJRdS1.png)
