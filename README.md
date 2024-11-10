@@ -42,7 +42,9 @@
 
 ![Checking Tags](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/PITJrJRdS1.png)
 
-## 2. Create an IAM Policy (Onboardign Intern)
+### (Onboardign Intern)
+
+## 2. Create an IAM Policy Onboardign Intern
 
 * I will create an IAM(Identity Access Management) policy that gives access to the development instance
 * Head to IAM console
@@ -85,4 +87,19 @@
 ```
 ![Paste JSON code](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/3HcMtUVMSa.png)
 
+* Click Create policy 
+
+
+* Click next and fill in the Policy details
+
+![Policy Details](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/Oyfd0t53kl.png)
+
+#v 3. Create an AWS Account Alias 
+
+* Go to IAM dashboard
+* On the right hand side under Account Alias click create(The Alias will re[place teh account ID which is a bunch of numbers and will make it easier for the inter to remember)
+
+![Alias](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/vCvWmoDgRO.png)
+
+# Create IAM User and User Groups
 
