@@ -94,12 +94,35 @@
 
 ![Policy Details](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/Oyfd0t53kl.png)
 
-#v 3. Create an AWS Account Alias 
+# 3. Create an AWS Account Alias 
 
 * Go to IAM dashboard
 * On the right hand side under Account Alias click create(The Alias will re[place teh account ID which is a bunch of numbers and will make it easier for the inter to remember)
 
 ![Alias](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/vCvWmoDgRO.png)
 
-# Create IAM User and User Groups
+# 4 Create IAM User and User Groups
 
+* from the IAM dashboard click User Groups on the left hand side
+* Click create user group
+* To set up user group:
+    * Name: dev-group
+    * Attach permision policies: EnvironmentPolicy
+
+![Environment policy](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/Bc4f1w8TNs.png)
+
+* Now let's create a user
+* Click on Users on the left hand side
+* Click Create user
+* Under user name: dev-evelio
+* Then click on provide user access to AWS Management Console
+* Then click I want to create an IAM user
+* And for this project I will uncheck teh box that makes user create a new password at next sing-in and click next
+* Then check the box to add to dev-group to apply security policies to user and click next 
+* Then click on create user.
+
+On the following screen the usre's log in credentials will show I have the option to email or download a file of the to send to the intern to log in. 
+
+![log in credentials for new user](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/VSBGqkreHC.png)
+
+Now I open a newbrowser and log in as a new user and I will see acces denied on resources the user does not have access to. Also I can test the policy by trying to stop production instance, but an error message shows do to the policy in place but when I go to delete teh development instance I am able to stop it. That has concluded the project on creating an IAM user. Thanks!
