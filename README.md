@@ -30,3 +30,8 @@
 
 ![Name and tags](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/TA4WHy8fs3.png)
 
+* For the Amazon Machine Image(AMI) I will be using the free tier: Amazon Linux 2023 MAI and Instance Type: t2.jmicro
+* I will use the default settings for the VPC and sub net.
+* For storage I used 1x 8 GIB gp3.
+
+![Successfull instance created](https://github.com/EvelioMorales/AWS-Cloud-Security-IAM/blob/main/YLqpXzFnFW.png)
