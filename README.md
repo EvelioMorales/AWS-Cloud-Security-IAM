@@ -9,7 +9,7 @@
 * IAM User and User Groups
 * AWS Account alias
 
-  In this scenario we are tasked with 1.Boosting computing power and 2.Onboard an intern. The intern should have teh right permission settings to contribute while keeping the company's resources secure.
+  In this scenario we are tasked with 1.Boosting computing power and 2.Onboard an intern. The intern should have the right permission settings to contribute while keeping the company's resources secure.
   
 ## 1. Launch EC2 instances (Boost Computing Power)
 
